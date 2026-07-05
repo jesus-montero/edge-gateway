@@ -1,0 +1,13 @@
+providers:
+  sportgo:
+    base_url: https://url/api/                                # Base URL for API. Final slash is required.
+    auth_login_path: auth/loginEmpresa                        # Path for authentication login. Initial slash is not requerired obligatory.
+    poll_interval_seconds: 300                                # Interval in seconds for polling the SportGo API.
+    token_ttl_seconds: 3600                                   # Time-to-live for the SportGo access token.
+    request_timeout_seconds: 10                               # Timeout for HTTP requests to the SportGo API.
+    auth_login_payload:                                       # Payload for authentication login request. Very important case-sensitive keys.
+      idEmpresa: "1"
+      nif: "Z00000000"
+      codpostal: "00000"
+      email: "mail@example.org"
+    ocuppancy_path: appts/getHoursOccupied                   # Path for occupancy request. Initial slash is not requerired obligatory.

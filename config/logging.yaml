@@ -1,0 +1,17 @@
+# Logging levels allowed in this project:
+# - TRACE
+# - DEBUG
+# - INFO
+# - WARNING
+# - ERROR
+#
+# Example:
+# level: WARNING
+#
+# Common format placeholders:
+# - %(asctime)s   Timestamp
+# - %(levelname)s Level name
+# - %(name)s      Logger/module name
+# - %(message)s   Log message
+level: DEBUG
+format: "%(asctime)s | %(levelname)s | %(name)s | %(message)s"

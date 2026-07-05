@@ -1,0 +1,32 @@
+devices:
+- device_id: 1
+  heartbeat_seconds: 60
+  idpista: '2'
+  ip: 192.168.1.25
+  name: Light Padel B
+  type: Shelly1_Gen4
+  username: admin
+- device_id: 2
+  heartbeat_seconds: 60
+  idpista: '3'
+  ip: 192.168.1.26
+  name: Light Padel C
+  type: Shelly1_Gen4
+  username: admin
+- device_id: 3
+  heartbeat_seconds: 60
+  idpista: '4'
+  ip: 192.168.1.27
+  name: Light Padel D
+  type: Shelly1_Gen4
+- device_id: 4
+  heartbeat_seconds: 60
+  idpista: '7'
+  ip: 192.168.1.101
+  name: Light Padel E
+  type: Shelly1_Gen4
+- device_id: 6
+  heartbeat_seconds: 10
+  ip: 192.168.1.100
+  name: Cashdro
+  type: Cashdro

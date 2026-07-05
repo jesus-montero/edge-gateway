@@ -1,0 +1,24 @@
+rules:
+- when:
+    source: sportgo
+    type: light_on
+  actions:
+  - device: Shelly1_Gen4
+    command: turn_on
+  - device: Shelly1_Gen4
+    command: turn_on
+  name: sportgo_light_on
+- name: sportgo_light_off
+  when:
+    source: sportgo
+    type: light_off
+  actions:
+  - device: Shelly1_Gen4
+    command: turn_off
+- name: cashdro_on_alarm
+  when:
+    source: edge
+    type: alarm
+  actions:
+  - device: Cashdro
+    command: open

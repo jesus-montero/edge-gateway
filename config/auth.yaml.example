@@ -1,0 +1,4 @@
+username: username
+password_salt: 
+password_hash: 
+iterations: 390000
