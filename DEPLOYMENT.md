@@ -103,8 +103,10 @@ Si solo cambias el backend, no necesitas volver a compilar el frontend.
 - Nginx hace proxy de `/api/` hacia `127.0.0.1:5000`.
 
 ## Redirección de Nginx
+```bash
 ln -s /opt/edge-gateway/nginx/sites-available/edge-gateway.conf /etc/nginx/sites-enabled/edge-gateway.conf
 cd /etc/nginx/sites-enabled/
 rm default
 sudo nginx -t
 sudo systemctl reload nginx
+```
